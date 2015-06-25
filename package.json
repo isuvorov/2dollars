@@ -1,0 +1,19 @@
+{
+  "name": "2dollars",
+  "version": "1.0.0",
+  "description": "write less, do more, save $$ dollars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isuvorov/2dollars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isuvorov/2dollars/issues"
+  },
+  "homepage": "https://github.com/isuvorov/2dollars"
+}
