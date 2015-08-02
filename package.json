@@ -1,6 +1,6 @@
 {
   "name": "2dollars",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "write less, do more, save $$ dollars",
   "main": "index.js",
   "scripts": {

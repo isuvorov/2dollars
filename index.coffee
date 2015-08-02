@@ -39,4 +39,22 @@ $$.findCreateUpdate = (model, data, next) ->
         object[key] = val
       object.save next
 
+$$.req = (req)->
+  req.paramJson = (name, defaultValue) ->
+    value = @.param name
+    return defaultValue if !value
+    try
+      return JSON.parse(value)
+    catch e
+      return defaultValue
+
+  req.paramJsonStr = (name, defaultValue) ->
+    value = @.param name
+    return defaultValue if !value
+    try
+      return JSON.parse(value)
+    catch e
+      return value
+
+  return req
 module.exports = $$
